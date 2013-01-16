@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Magic 皮肤演示</title>
+        <script type="text/javascript" src="http://fe.bdimg.com/tangram/2.0.1.2.js"></script>
+        <script type="text/javascript" src="../../src/import.php?f=magic.setup.suggestion,magic.Carousel.$button,magic.Pager,magic.setup.datePicker,magic.control.DatePicker.$title,magic.setup.dialog,magic.control.Dialog.$button,magic.Slider,magic.Tab,magic.ComboBox,magic.control.ComboBox.$suggestion"></script>
+        <script type="text/javascript" src="skin_show.js"></script>
+        <script type="text/javascript" src="skin_loader.js"></script>
+        <link rel="stylesheet" type="text/css" href="skin_show.css" />
+    </head>
+    <body>
+        <h1>Magic 皮肤演示</h1>
+        <p>选择一款皮肤，然后点载入</p>
+        <p>
+            <select id="skin-name">
+                <option value="default">默认皮肤（default）</option>
+                <option value="metro" selected>Metro 风格（metro）</option>
+            </select>
+            <input id="btn-load-skin" type="button" value="载入" />
+        </p>
+
+        <h2>Suggestion 组件演示</h2>
+        <input id="magic-suggestion" />
+
+        <h2>Carousel 组件演示</h2>
+        <div id="magic-carousel"></div>
+
+        <h2>Pager 组件演示</h2>
+        <div id="magic-pager"></div>
+
+        <h2>DatePicker 组件演示</h2>
+        <input id="magic-date-picker" />
+
+        <h2>ComboBox 组件演示</h2>
+        <div id="magic-combox"></div>
+
+        <h2>Dialog 组件演示</h2>
+        <p>
+            <input id="btn-open-magic-dialog" type="button" value="打开对话框" />
+            <input id="btn-open-magic-alert" type="button" value="消息框" />
+            <input id="btn-open-magic-confirm" type="button" value="确认框" />
+        </p>
+        <div id="magic-dialog"></div>
+
+        <h2>Slider 组件演示</h2>
+        <div id="magic-slider"></div>
+
+        <h2>Tabs 组件演示</h2>
+        <div id="magic-tabs"></div>
+    </body>
+</html>

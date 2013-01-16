@@ -1,0 +1,26 @@
+body {
+    font-size: 14px;
+    color: #333;
+    padding-left: 50px;
+}
+
+h1, h2 {
+    font-family: 'Microsoft Yahei';
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.2em;
+}
+
+#magic-carousel {
+    width: 644px;
+    height: 140px;
+    clear: both;
+}
+#magic-dialog {
+    position: absolute;
+}
